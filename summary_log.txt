@@ -1,0 +1,6 @@
+Instruction: Update mission statement to include ethical usage of AI.
+File Updated: about.html
+HTML Snippet: File: mission.html
+Updated Content: 
+<h2>Mission</h2>
+<p>My mission is to use AI to automate as much as possible, while ensuring ethical and responsible usage of technology.</p>

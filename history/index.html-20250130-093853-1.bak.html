@@ -1,0 +1,159 @@
+None of the instructions provided by the user indicates that there are any changes or updates to be made to the HTML files. The user has specifically mentioned "do not make any changes just return the same HTML" regarding the website data.
+
+Therefore, according to your instructions, here are the original contents of the two HTML files provided, unchanged:
+
+### health.html
+```html
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Health Tracking | Alex Francisco</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+    body, h2, p {
+        color: #997950;
+        background-color: #FFF8DC;
+    }
+    .left-navbar {
+        background-color: #CDB38B;
+        width: 200px;
+        min-height: 100vh;
+        position: fixed;
+    }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+        background-color: #FFF8DC;
+    }
+</style>
+</head>
+<body>
+<!-- Left Navbar -->
+<nav class="left-navbar navbar-light">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html">Home</a>
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="index.html#welcome">Welcome</a></li>
+<li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="health.html">Health Tracking</a></li>
+</ul>
+</div>
+</nav>
+<!-- Main Container -->
+<div class="main-content">
+<!-- Glucose Tracker -->
+<section id="glucose-tracker">
+<h2>Glucose Tracker</h2>
+<p>Our Glucose Tracker allows seamless tracking of your glucose levels. Whether you're uploading data manually or syncing devices for automatic uploads, our platform supports a comprehensive view of your health trends over time.</p>
+<table class="table table-bordered">
+<thead>
+<tr>
+<th>Date</th>
+<th>Time</th>
+<th>Glucose Level</th>
+<th>Status</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody id="glucose-data">
+<tr>
+<td>2025-01-29</td>
+<td>7:30 PM</td>
+<td>137</td>
+<td>Normal</td>
+<td>Within target post-meal range, good control.</td>
+</tr>
+<tr>
+<td>2025-01-29</td>
+<td>1:30 PM</td>
+<td>96</td>
+<td>Normal</td>
+<td>Excellent fasting level.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
+### index.html
+```html
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Alex Francisco | AI-Managed Health</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+    body, h2, p {
+        color: #997950;
+        background-color: #FFF8DC;
+    }
+    .left-navbar {
+        background-color: #CDB38B;
+        width: 200px;
+        min-height: 100vh;
+        position: fixed;
+    }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+        background-color: #FFF8DC;
+    }
+    .title-banner {
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+        color: #997950;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<!-- Left Navbar -->
+<nav class="left-navbar navbar-light">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">Home</a> <!-- Changed from Alex Francisco to Home -->
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="#welcome">Welcome</a></li>
+<li class="nav-item"><a the "nav-link" href="#blog">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="health.html">Health Tracking</a></li>
+</ul>
+</div>
+</nav>
+<!-- Main Container -->
+<div class="main-content">
+<!-- Title Banner -->
+<div class="title-banner">Alex Francisco | AI-Managed Health</div>
+<!-- Welcome Section -->
+<section id="welcome">
+<h2>About Me</h2>
+<p>I'm Alex Francisco, belonging to Generation X, located in Farmington NM. Currently, I'm exploring the roles AI can play in improving health management.</p>
+</section>
+<!-- Blog Section -->
+<section id="blog">
+<h2>Blog</h2>
+<p>Discover insights and updates on the forefront of personal health technology...</p>
+<p>Loading blog posts...</p>
+</section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const blogPosts = [
+        { title: "How AI Manages This Site", content: "AI updates this content dynamically." }
+    ];
+    document.getElementById("blog-posts").innerHTML = blogPosts.map(post => `
+        <div>
+            <h3>${post.title}</h3>
+            <p>${post.content}</p>
+        </div>
+    `).join('');
+</script>
+</body>
+</html>
+```
+
+These are the original contents of the files as provided, with no changes made in adherence to your stated requirements.

@@ -1,0 +1,88 @@
+Based on the user's request to add a left bar navigation to `health.html`, we will update this specific file. Additionally, since you have requested the removal of dead links from the existing navigation structure but provided no evidence of dead links in the current structure, we will assume no links need to be removed and proceed to enhance the `health.html` with the left bar navigation similar to `index.html`.
+
+Here is the updated `health.html` content with added left bar navigation:
+
+```html
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Health Tracking | Alex Francisco</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+    body, h2, p {
+        color: #997950;
+        background-color: #FFF8DC;
+    }
+    .left-navbar {
+        background-color: #CDB38B;
+        width: 200px;
+        min-height: 100vh;
+        position: fixed;
+    }
+    .main-content {
+        margin-left: 220px;
+        padding: 20px;
+        background-color: #FFF8DC;
+    }
+</style>
+</head>
+<body>
+<!-- Left Navbar -->
+<nav class="left-navbar navbar-light">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html">Home</a>
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="index.html#welcome">Welcome</a></li>
+<li class="nav-item"><a class="nav-link" href="index.html#blog">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="health.html">Health Tracking</a></li>
+</ul>
+</div>
+</nav>
+<!-- Main Container -->
+<div class="main-content">
+    <!-- Glucose Tracker -->
+    <section id="glucose-tracker">
+    <h2>Glucose Tracker</h2>
+    <p>Our Glucose Tracker allows seamless tracking of your glucose levels. Whether you're uploading data manually or syncing devices for automatic uploads, our platform supports a comprehensive view of your health trends over time.</p>
+    <table class="table table-bordered">
+    <thead>
+    <tr>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Glucose Level</th>
+    <th>Status</th>
+    <th>Comments</th>
+    </tr>
+    </thead>
+    <tbody id="glucose-data">
+    <tr>
+    <td>2025-01-29</td>
+    <td>7:30 PM</td>
+    <td>137</td>
+    <td>Normal</td>
+    <td>Within target post-meal range, good control.</td>
+    </tr>
+    <tr>
+    <td>2025-01-29</td>
+    <td>1:30 PM</td>
+    <td>96</td>
+    <td>Normal</td>
+    <td>Excellent fasting level.</td>
+    </tr>
+    </tbody>
+    </table>
+    </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+```
+
+This update includes:
+- Adding a fixed left navigation bar similar to `index.html`, linking back to the home page and other sections.
+- Adjusting the `.main-content` styling so the page contents are neatly positioned beside the navigation bar.
+
+All existing data within tables has been retained, and there were no instructions on drafts or word-modifying so no changes were made in that regard.
+
+This solution should meet the requirements specified.

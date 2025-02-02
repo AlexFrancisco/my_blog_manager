@@ -1,0 +1,23 @@
+# Exclude the node_modules folder
+node_modules/
+
+# Exclude all log files
+*.log
+
+# Exclude compiled Python files and cache directories
+*.pyc
+__pycache__/
+
+# Exclude environment configuration files
+.env
+
+
+drafts/
+hidden_content/
+history/
+website_build/
+*.log
+*.json
+*_log.txt
+*_summary.txt
+*copy.py
